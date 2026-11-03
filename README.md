@@ -8,7 +8,7 @@ Clock512 combines an enabled five-stage ring oscillator, nine static resettable 
 
 ## Status
 
-**Locally verified; not fabricated or submitted.** The saved verification records report zero Magic DRC violations, matching schematic/layout LVS, a passing local Tiny Tapeout precheck, and 16 passing post-layout simulation cases. The repository has not yet run its GitHub Actions workflow. See [verification evidence](reports/VERIFICATION.md).
+**Locally verified; submitted, but chip not arriving until APROX June 2027 .** The saved verification records report zero Magic DRC violations, matching schematic/layout LVS, a passing local Tiny Tapeout precheck, and 16 passing post-layout simulation cases. The repository has not yet run its GitHub Actions workflow. See [verification evidence](reports/VERIFICATION.md).
 
 The original learning circuit was adapted to a static resettable divider and the Tiny Tapeout interface. Layout generation and verification were developed with AI assistance during the project. The portfolio focuses on the circuit, physical-layout flow, and recorded local verification.
 
