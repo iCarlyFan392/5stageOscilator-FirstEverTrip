@@ -1,0 +1,22 @@
+{
+  "pex": {
+    "old_nodes": 372,
+    "new_nodes": 372,
+    "old_edges": 1853,
+    "new_edges": 1853,
+    "equivalent": true,
+    "capacitance_comparison_relative_tolerance": 3e-06,
+    "capacitance_comparison_absolute_tolerance_F": 1e-19,
+    "other_parameters_exact": true
+  },
+  "rcx": {
+    "old_nodes": 4156,
+    "new_nodes": 4156,
+    "old_edges": 9631,
+    "new_edges": 9631,
+    "equivalent": true,
+    "capacitance_comparison_relative_tolerance": 3e-06,
+    "capacitance_comparison_absolute_tolerance_F": 1e-19,
+    "other_parameters_exact": true
+  }
+}

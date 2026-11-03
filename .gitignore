@@ -1,0 +1,8 @@
+*.raw
+*.ext
+*.res.ext
+*.sim
+*.nodes
+__pycache__/
+reports/scratch/
+.venv/

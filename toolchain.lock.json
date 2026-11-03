@@ -1,0 +1,30 @@
+{
+  "container": "hpretl/iic-osic-tools@sha256:7371bae55da486f492cc270ea6137c4fcf3b11971de7a4506a74f62be143537a",
+  "magic": "8.3.664",
+  "netgen": "1.5.321",
+  "ngspice": "46",
+  "xschem": "3.4.8RC",
+  "pdk": "sky130A",
+  "submission_open_pdks_revision": "0536d02d875c8f67dd7cca3902ac457e62f20005",
+  "pdk_root": "/foss/tt_pdks",
+  "pdk_install": "ciel enable --pdk-root /foss/tt_pdks --pdk sky130 -l sky130_fd_pr -l sky130_fd_sc_hd 0536d02d875c8f67dd7cca3902ac457e62f20005",
+  "qualification_extraction_open_pdks_version": "1.0.599-0-gb344c97",
+  "qualification_extraction_note": "The original RC network is retained exactly. Re-extraction with the submission PDK has matching connectivity/resistor values; capacitors match within text-rounding tolerance. See reports/extraction_provenance.json and extraction_equivalence.json. Simulation device models and final physical checks use the submission PDK.",
+  "ttsky_template_commit": "301590bc02ffeabc2bb176489de9db0818a4b958",
+  "tt_support_tools_commit": "b7b993ac507a3d0dd9c2c82c213ff6fab7d6dacc",
+  "tt_gds_action_tag": "ttsky26d",
+  "tt_gds_action_commit": "395eedb3eeec3c2f4961c3b04ff2cf87f5525636",
+  "precheck_python_klayout": "0.30.9",
+  "precheck_python_gdstk": "0.9.52",
+  "precheck_python_numpy": "1.26.4",
+  "precheck_yowasp_yosys": "0.63.0.0.post1107",
+  "precheck_environment_note": "Use precheck/requirements.txt in an isolated venv and unset PYTHONPATH so container-global libraries do not override it.",
+  "design_python_packages": {
+    "numpy": "2.5.0",
+    "scipy": "1.18.0",
+    "networkx": "3.6.1",
+    "matplotlib": "3.11.0",
+    "cairosvg": "2.9.0",
+    "pyyaml": "6.0.3"
+  }
+}

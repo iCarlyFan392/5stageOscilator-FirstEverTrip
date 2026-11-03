@@ -1,0 +1,503 @@
+{
+  "all_passed": true,
+  "missing": [],
+  "cases": [
+    {
+      "name": "external_rcx_nominal",
+      "mode": 1,
+      "duration_s": 4.5e-05,
+      "corner": "tt",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx.spice",
+      "final_time_s": 4.4999999999999996e-05,
+      "points": 196765,
+      "netlist_sha256": "2cd429699be46405e1242bfebe286dd8ec93ebcc20626c19e7603ce06e69ab3b",
+      "bench_sha256": "ba7b9bb0633449f27cd1c0a26d97fb7f3aed79831fcba9b0d3094b742459867f",
+      "external_clock_active": true,
+      "out_min_V": -0.002923924571826185,
+      "out_max_V": 1.8106937432125894,
+      "osc_min_V": 1.6997039242019356,
+      "osc_max_V": 1.8902533096609255,
+      "mean_core_power_W": 9.646014592859077e-05,
+      "clock_edges_per_output_period": [
+        512,
+        512,
+        512
+      ],
+      "output_Hz": 97656.24999969006,
+      "selected_clock_Hz": 50000006.940853596,
+      "output_high_fraction": [
+        0.49996898768474096,
+        0.49996898768722586,
+        0.49996898768094894
+      ],
+      "pass": true
+    },
+    {
+      "name": "ring_rcx_nominal",
+      "mode": 0,
+      "duration_s": 3.5e-05,
+      "corner": "tt",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 3.5e-05,
+      "points": 137113,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "da2aea06205676050096ffa3aa4375277199d87982b81e0319923cecc530ae8c",
+      "external_clock_active": true,
+      "out_min_V": -0.08640865803743666,
+      "out_max_V": 1.8337672682501711,
+      "osc_min_V": -0.13440863139343234,
+      "osc_max_V": 1.8966517651638126,
+      "mean_core_power_W": 0.00015916230300106715,
+      "clock_edges_per_output_period": [
+        512,
+        512
+      ],
+      "output_Hz": 97656.23853062271,
+      "selected_clock_Hz": 49999964.8012588,
+      "output_high_fraction": [
+        0.4999708888420007,
+        0.499968239585234
+      ],
+      "pass": true
+    },
+    {
+      "name": "external_rcx_slow_hot",
+      "mode": 1,
+      "duration_s": 3.5e-05,
+      "corner": "ss",
+      "v": 1.62,
+      "temp": 85,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 3.5e-05,
+      "points": 139144,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "4c1771ccad9365d0482f2d500ccface84de165505155135b7a55f5381e6f1757",
+      "external_clock_active": true,
+      "out_min_V": -0.002907912768664975,
+      "out_max_V": 1.6232738196680052,
+      "osc_min_V": 1.5302548297195389,
+      "osc_max_V": 1.7204716246109304,
+      "mean_core_power_W": 7.849330982150189e-05,
+      "clock_edges_per_output_period": [
+        512,
+        512
+      ],
+      "output_Hz": 97656.25000003664,
+      "selected_clock_Hz": 50000016.879656896,
+      "output_high_fraction": [
+        0.49995658507230367,
+        0.4999565850689763
+      ],
+      "pass": true
+    },
+    {
+      "name": "ring_rcx_slow_hot",
+      "mode": 0,
+      "duration_s": 7e-05,
+      "corner": "ss",
+      "v": 1.62,
+      "temp": 85,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 7e-05,
+      "points": 239459,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "8230492b81402b641d5507b5930961905d764ca3aced0b0cd66c80e8126c6f65",
+      "external_clock_active": true,
+      "out_min_V": -0.08226961594331748,
+      "out_max_V": 1.670704748571794,
+      "osc_min_V": -0.12645160117580878,
+      "osc_max_V": 1.7090727448919603,
+      "mean_core_power_W": 7.87120096735137e-05,
+      "clock_edges_per_output_period": [
+        512,
+        512,
+        512
+      ],
+      "output_Hz": 59726.807858038,
+      "selected_clock_Hz": 30579774.906177152,
+      "output_high_fraction": [
+        0.4999495969098013,
+        0.49994092134277196,
+        0.49995328885637763
+      ],
+      "pass": true
+    },
+    {
+      "name": "external_rcx_fast_cold",
+      "mode": 1,
+      "duration_s": 3.5e-05,
+      "corner": "ff",
+      "v": 1.95,
+      "temp": -40,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 3.5e-05,
+      "points": 161357,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "a5b168c439ac112b04c51bc3b1e4dca18aad35b5c2e58a10f6a21c7bc6778bc1",
+      "external_clock_active": true,
+      "out_min_V": -0.043707906261533876,
+      "out_max_V": 1.9534928686908093,
+      "osc_min_V": 1.8429815948092163,
+      "osc_max_V": 2.0465431620503254,
+      "mean_core_power_W": 0.00011319738663356393,
+      "clock_edges_per_output_period": [
+        512,
+        512
+      ],
+      "output_Hz": 97656.25000053212,
+      "selected_clock_Hz": 50000008.005985655,
+      "output_high_fraction": [
+        0.49998404547351805,
+        0.4999840454771132
+      ],
+      "pass": true
+    },
+    {
+      "name": "ring_rcx_fast_cold",
+      "mode": 0,
+      "duration_s": 2.4999999999999998e-05,
+      "corner": "ff",
+      "v": 1.95,
+      "temp": -40,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 2.4999999999999998e-05,
+      "points": 120828,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "fba8172ed0de8b8bcc90351d2dfab4f53acd9c606381d9f1fd24d81ed2f2d905",
+      "external_clock_active": true,
+      "out_min_V": -0.07297113433876666,
+      "out_max_V": 1.9687360957690354,
+      "osc_min_V": -0.15889913069053185,
+      "osc_max_V": 2.0555396618849335,
+      "mean_core_power_W": 0.00029083890174801054,
+      "clock_edges_per_output_period": [
+        512,
+        512
+      ],
+      "output_Hz": 146483.5880912917,
+      "selected_clock_Hz": 75013667.95612602,
+      "output_high_fraction": [
+        0.49999394779607853,
+        0.4999752332923391
+      ],
+      "pass": true
+    },
+    {
+      "name": "external_rcx_sf",
+      "mode": 1,
+      "duration_s": 3.5e-05,
+      "corner": "sf",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 3.5e-05,
+      "points": 154560,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "e8f4449b9b541e9decc97a35509434edef8cac26096d649aff1c9e8e759cf432",
+      "external_clock_active": true,
+      "out_min_V": -0.02812737006591617,
+      "out_max_V": 1.8038973012650301,
+      "osc_min_V": 1.6970193594597385,
+      "osc_max_V": 1.8883612791065618,
+      "mean_core_power_W": 9.708830750807584e-05,
+      "clock_edges_per_output_period": [
+        512,
+        512
+      ],
+      "output_Hz": 97656.24999911782,
+      "selected_clock_Hz": 50000026.5360785,
+      "output_high_fraction": [
+        0.49996015150625384,
+        0.4999601514993301
+      ],
+      "pass": true
+    },
+    {
+      "name": "ring_rcx_sf",
+      "mode": 0,
+      "duration_s": 4.4999999999999996e-05,
+      "corner": "sf",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 4.4999999999999996e-05,
+      "points": 174327,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "ceaef4a5d91501c8281606e59ea275141b5730bfeb6d58437b6f25926b591fc9",
+      "external_clock_active": true,
+      "out_min_V": -0.060905895727379714,
+      "out_max_V": 1.819159078688435,
+      "osc_min_V": -0.15046773022966117,
+      "osc_max_V": 1.8899483366908267,
+      "mean_core_power_W": 0.00014922721523652355,
+      "clock_edges_per_output_period": [
+        512,
+        512,
+        512
+      ],
+      "output_Hz": 91179.84546519727,
+      "selected_clock_Hz": 46682917.00110122,
+      "output_high_fraction": [
+        0.4999681867100009,
+        0.49988257005389297,
+        0.4999784267597607
+      ],
+      "pass": true
+    },
+    {
+      "name": "external_rcx_fs",
+      "mode": 1,
+      "duration_s": 3.5e-05,
+      "corner": "fs",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 3.5e-05,
+      "points": 151145,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "fd642519a4233d19cc05a4fb7b43075dab2d5570e5dae5edcbaafc9cec497bcd",
+      "external_clock_active": true,
+      "out_min_V": -0.01525348339551709,
+      "out_max_V": 1.8136462388381982,
+      "osc_min_V": 1.6972804802403076,
+      "osc_max_V": 1.8926639383274222,
+      "mean_core_power_W": 9.806908044181918e-05,
+      "clock_edges_per_output_period": [
+        512,
+        512
+      ],
+      "output_Hz": 97656.2500001952,
+      "selected_clock_Hz": 50000007.875300184,
+      "output_high_fraction": [
+        0.4999870561359874,
+        0.49998705613766525
+      ],
+      "pass": true
+    },
+    {
+      "name": "ring_rcx_fs",
+      "mode": 0,
+      "duration_s": 4.4999999999999996e-05,
+      "corner": "fs",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 4.4999999999999996e-05,
+      "points": 171948,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "be2db62e4761335da68e25c9913f34dc91a75153eaafd4ebeafd6028cad8c1af",
+      "external_clock_active": true,
+      "out_min_V": -0.005473542309839124,
+      "out_max_V": 1.826285993010614,
+      "osc_min_V": -0.12636785480823787,
+      "osc_max_V": 1.9132804941430896,
+      "mean_core_power_W": 0.0001636092377788833,
+      "clock_edges_per_output_period": [
+        512,
+        512,
+        512
+      ],
+      "output_Hz": 97656.27413825573,
+      "selected_clock_Hz": 49999835.57713709,
+      "output_high_fraction": [
+        0.4999856037852695,
+        0.4999857167535022,
+        0.49998644869214276
+      ],
+      "pass": true
+    },
+    {
+      "name": "control_rcx",
+      "mode": 1,
+      "duration_s": 2.6e-05,
+      "corner": "tt",
+      "v": 1.8,
+      "temp": 27,
+      "load": "100f",
+      "netlist": "top_rcx_reduced.spice",
+      "final_time_s": 2.6e-05,
+      "points": 98812,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "02a365d079b66694331f7c52de3d86abcc7e59f6eb6556e47ee90e249d750958",
+      "external_clock_active": true,
+      "out_min_V": -0.020055094914541275,
+      "out_max_V": 1.8029340408713503,
+      "osc_min_V": -0.14364946669146197,
+      "osc_max_V": 1.9006507279910467,
+      "mean_core_power_W": 8.995349108356915e-05,
+      "hold_checks": [
+        "RUN low, external mode",
+        "ena low",
+        "RUN low across mode change",
+        "RUN low, ring mode"
+      ],
+      "runtime_reset_checks": 2,
+      "restart_checks": 5,
+      "pass": true
+    },
+    {
+      "name": "free_ring_nominal",
+      "mode": 0,
+      "duration_s": 2.4999999999999998e-05,
+      "corner": "tt",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "external_clock_held_low": true,
+      "final_time_s": 2.4999999999999998e-05,
+      "points": 68240,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "7878875f3212f5153911c927b3fe9a74300bc08dca8b846bd80d4241af389dcb",
+      "external_clock_active": false,
+      "out_min_V": -0.04511975746430292,
+      "out_max_V": 1.8286504415802818,
+      "osc_min_V": -0.07586867287160161,
+      "osc_max_V": 1.8973465818617596,
+      "mean_core_power_W": 0.00015884870546103248,
+      "clock_edges_per_output_period": [
+        512
+      ],
+      "output_Hz": 96596.01458621166,
+      "selected_clock_Hz": 49457065.85818808,
+      "output_high_fraction": [
+        0.49995331807229565
+      ],
+      "pass": true
+    },
+    {
+      "name": "free_ring_slow_hot",
+      "mode": 0,
+      "duration_s": 3.9999999999999996e-05,
+      "corner": "ss",
+      "v": 1.62,
+      "temp": 85,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "external_clock_held_low": true,
+      "final_time_s": 3.9999999999999996e-05,
+      "points": 91920,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "e547acfd6972f384c655d14c4346f460639bf3e8ed4bff6cce108769b3c96b2b",
+      "external_clock_active": false,
+      "out_min_V": -0.03656299378041533,
+      "out_max_V": 1.674870394778475,
+      "osc_min_V": -0.06724263273777888,
+      "osc_max_V": 1.7078887414145212,
+      "mean_core_power_W": 7.878410456757047e-05,
+      "clock_edges_per_output_period": [
+        512
+      ],
+      "output_Hz": 59708.90589690712,
+      "selected_clock_Hz": 30570952.720267296,
+      "output_high_fraction": [
+        0.4999715298801127
+      ],
+      "pass": true
+    },
+    {
+      "name": "free_ring_fast_cold",
+      "mode": 0,
+      "duration_s": 1.9999999999999998e-05,
+      "corner": "ff",
+      "v": 1.95,
+      "temp": -40,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "external_clock_held_low": true,
+      "final_time_s": 1.9999999999999998e-05,
+      "points": 74872,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "093de3683f903c5fbaadafa4fdca6ac9f91679174f4b4c44acbef1dce9d1a568",
+      "external_clock_active": false,
+      "out_min_V": -0.04402488186784102,
+      "out_max_V": 1.9713616215659808,
+      "osc_min_V": -0.08741185824112795,
+      "osc_max_V": 2.061087211489438,
+      "mean_core_power_W": 0.00029248775495982477,
+      "clock_edges_per_output_period": [
+        512
+      ],
+      "output_Hz": 146848.47972688507,
+      "selected_clock_Hz": 75184131.11770356,
+      "output_high_fraction": [
+        0.49997359134635266
+      ],
+      "pass": true
+    },
+    {
+      "name": "free_ring_sf",
+      "mode": 0,
+      "duration_s": 2.9999999999999997e-05,
+      "corner": "sf",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "external_clock_held_low": true,
+      "final_time_s": 2.9999999999999997e-05,
+      "points": 82125,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "da8dd18ed080af14b5b6a55ead4bb32e49991e95262b019f02fa22544ab72aa4",
+      "external_clock_active": false,
+      "out_min_V": -0.05335268734617896,
+      "out_max_V": 1.8187624941968061,
+      "osc_min_V": -0.08042244561616542,
+      "osc_max_V": 1.891216112604816,
+      "mean_core_power_W": 0.00014917044485615553,
+      "clock_edges_per_output_period": [
+        512
+      ],
+      "output_Hz": 90926.96782701052,
+      "selected_clock_Hz": 46554880.32374064,
+      "output_high_fraction": [
+        0.4999298719842507
+      ],
+      "pass": true
+    },
+    {
+      "name": "free_ring_fs",
+      "mode": 0,
+      "duration_s": 2.9999999999999997e-05,
+      "corner": "fs",
+      "v": 1.8,
+      "temp": 27,
+      "load": "50f",
+      "netlist": "top_rcx_reduced.spice",
+      "external_clock_held_low": true,
+      "final_time_s": 2.9999999999999997e-05,
+      "points": 80304,
+      "netlist_sha256": "e2757eb6bdf68cab9a825522ae4d63e1952de3a61c75a51be188504ee4ae8821",
+      "bench_sha256": "3a8f9a172ad26f6ca29a9ff04541abe788fd1fc7a40f4022aa29f93fa2188319",
+      "external_clock_active": false,
+      "out_min_V": -0.009100833862845709,
+      "out_max_V": 1.8238214350513,
+      "osc_min_V": -0.056849284441644984,
+      "osc_max_V": 1.906233115657502,
+      "mean_core_power_W": 0.0001641357924125833,
+      "clock_edges_per_output_period": [
+        512
+      ],
+      "output_Hz": 98005.61611929795,
+      "selected_clock_Hz": 50180313.22561281,
+      "output_high_fraction": [
+        0.4999840554450887
+      ],
+      "pass": true
+    }
+  ]
+}

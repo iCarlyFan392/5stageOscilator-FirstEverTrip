@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "top_module": "tt_um_clock512_custom",
+  "digital_pins": 43,
+  "power_pins": 2,
+  "tile_um": [
+    161,
+    225.76
+  ],
+  "analog_pins": 0,
+  "metal5_used": false,
+  "metadata_schema": "official tt-support-tools ProjectInfo",
+  "files": {
+    "info.yaml": "6a27b6a9490d1941731845a8d8a68462f0a4d84e62c8cc74ac4d4d7544db16e9",
+    "LICENSE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+    "docs/info.md": "b93da0cb32a8fa879d0ff0fdf9a2d7e069f6793b3b61713a75adcb68345c1564",
+    "gds/tt_um_clock512_custom.gds": "d825b23b670d2a94a563dba081e6c9ccb0f3fcc0b28330f15c9dafdf526cbc36",
+    "lef/tt_um_clock512_custom.lef": "1b43063dd528d8694a9f802bd0048afc95f93e35dc394a26c985f71b76abe001",
+    "src/project.v": "057c5a978fbb45887473d34e58c7b050c7388a2ff58e74fa26a0fa25c130113a",
+    ".github/workflows/gds.yaml": "a34908863683c9d238386ce62584a4ed000641bc85f30f59956ee98fd5e72948",
+    "schematic/top.sch": "b4f84f6abf2ad0041517fdbeafcae609624e86397643aa8854d506f110b3bad6",
+    "layout/tt_um_clock512_custom.mag": "e2191b3fadf7633da4ab45d60ee6e2119dc805a675293679dbc69bd854ec4eae"
+  }
+}

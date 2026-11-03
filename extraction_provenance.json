@@ -1,0 +1,16 @@
+{
+  "pex": {
+    "qualified_native_sha256": "79a69555820a41bac2f0d0c47e287af75ca304d6e79eb88411e3e6cabd8dfff8",
+    "reextracted_native_sha256": "f9955f4c286aaaae0b968024b60983ae85cf55911f9b0799f609c77558649f04",
+    "qualified_extraction_open_pdks": "b344c97",
+    "reextraction_open_pdks": "0536d02d875c8f67dd7cca3902ac457e62f20005",
+    "equivalence_report": "extraction_equivalence.json"
+  },
+  "rcx": {
+    "qualified_native_sha256": "d983b4b6db80fda1849e1ea975828b2c922c8d369a07190e66add535dd31eb59",
+    "reextracted_native_sha256": "14cf102ae2479d2b0ebbe2216342c6c02af1683d5c828c32039fe3f490f431d0",
+    "qualified_extraction_open_pdks": "b344c97",
+    "reextraction_open_pdks": "0536d02d875c8f67dd7cca3902ac457e62f20005",
+    "equivalence_report": "extraction_equivalence.json"
+  }
+}

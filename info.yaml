@@ -1,0 +1,46 @@
+# Clock512 custom GDS submission for Tiny Tapeout SKY26d.
+project:
+  title: "Clock512: resettable ring oscillator divider"
+  author: "Zane Al Saadi"
+  discord: ""
+  description: "Custom SKY130 ring oscillator and static resettable divide-by-512 chain with external-clock test mode"
+  language: "Analog"
+  clock_hz: 50000000
+  tiles: "1x2"
+  analog_pins: 0
+  uses_vapwr: false
+  top_module: "tt_um_clock512_custom"
+  source_files:
+    - "project.v"
+pinout:
+  ui[0]: "RUN: high enables counting"
+  ui[1]: "MODE: low=internal ring, high=external clk"
+  ui[2]: ""
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
+  uo[0]: "DIVOUT: selected clock divided by 512"
+  uo[1]: ""
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: ""
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
+  ua[0]: ""
+  ua[1]: ""
+  ua[2]: ""
+  ua[3]: ""
+  ua[4]: ""
+  ua[5]: ""
+yaml_version: 6

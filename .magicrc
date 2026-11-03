@@ -1,0 +1,2 @@
+set env(PDK_ROOT) /foss/tt_pdks
+source /foss/tt_pdks/sky130A/libs.tech/magic/sky130A.magicrc

@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "boundary_nodes": 2577,
+  "independent_voltage_vectors": 4,
+  "maximum_relative_current_error": 3.447197622760481e-15,
+  "method": "Compare original and reduced nodal conductance matrices with identical imposed boundary voltages"
+}

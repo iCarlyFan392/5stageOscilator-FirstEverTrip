@@ -1,0 +1,76 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 0
+<< pwell >>
+rect 312 -288 888 288
+<< psubdiff >>
+rect 348 218 444 252
+rect 756 218 852 252
+rect 348 156 382 218
+rect 818 156 852 218
+rect 348 -218 382 -156
+rect 818 -218 852 -156
+rect 348 -252 444 -218
+rect 756 -252 852 -218
+<< psubdiffcont >>
+rect 444 218 756 252
+rect 348 -156 382 156
+rect 818 -156 852 156
+rect 444 -252 756 -218
+<< ndiode >>
+rect 450 138 750 150
+rect 450 -138 462 138
+rect 738 -138 750 138
+rect 450 -150 750 -138
+<< ndiodec >>
+rect 462 -138 738 138
+<< locali >>
+rect 348 218 444 252
+rect 756 218 852 252
+rect 348 156 382 218
+rect 818 156 852 218
+rect 446 -138 462 138
+rect 738 -138 754 138
+rect 348 -218 382 -156
+rect 818 -218 852 -156
+rect 348 -252 444 -218
+rect 756 -252 852 -218
+rect 566 -269 634 -201
+<< viali >>
+rect 462 -138 738 138
+rect 583 -252 617 -218
+<< metal1 >>
+rect 450 138 750 144
+rect 450 -138 462 138
+rect 738 -138 750 138
+rect 450 -144 750 -138
+rect 566 -34 634 34
+rect 566 -269 634 -201
+rect 570 -430 630 -205
+rect 170 -430 630 -370
+rect 166 -434 234 -366
+<< via1 >>
+rect 574 -26 626 26
+rect 174 -426 226 -374
+<< metal2 >>
+rect 566 -34 634 34
+rect 570 -30 630 630
+rect 556 556 644 644
+rect 166 -434 234 -366
+rect 170 -430 230 830
+rect 156 756 244 844
+<< via2 >>
+rect 572 572 628 628
+rect 172 772 228 828
+<< metal3 >>
+rect 556 556 644 644
+rect 156 756 244 844
+rect 156 556 1044 644
+rect 156 756 1044 844
+<< labels >>
+rlabel metal3 200 600 200 600 0 D
+port 1 nsew signal bidirectional
+rlabel metal3 440 800 440 800 0 GND
+port 2 nsew signal bidirectional
+<< end >>

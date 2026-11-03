@@ -1,0 +1,5 @@
+set PDK_ROOT /foss/tt_pdks
+set PDK sky130A
+source /foss/tt_pdks/sky130A/libs.tech/xschem/xschemrc
+append XSCHEM_LIBRARY_PATH :[file dirname [info script]]
+set spiceprefix 1
