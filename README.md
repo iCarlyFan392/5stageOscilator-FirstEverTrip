@@ -8,11 +8,11 @@ Clock512 combines an enabled five-stage ring oscillator, nine static resettable 
 
 ## Status
 
-**Locally verified; submitted, but chip not arriving until APROX June 2027 .** The saved verification records report zero Magic DRC violations, matching schematic/layout LVS, a passing local Tiny Tapeout precheck, and 16 passing post-layout simulation cases. The repository has not yet run its GitHub Actions workflow. See [verification evidence](reports/VERIFICATION.md).
+**Locally verified; submitted, but chip not arriving until APROX June 2027 .** The saved verification records report zero Magic DRC violations, matching schematic/layout LVS, a passing local Tiny Tapeout precheck, and 16 passing post layout simulation cases. 
 
-The original learning circuit was adapted to a static resettable divider and the Tiny Tapeout interface. Layout generation and verification were developed with AI assistance during the project. The portfolio focuses on the circuit, physical-layout flow, and recorded local verification.
+The original learning circuit was adapted to a static resettable divider and the Tiny Tapeout interface after discussing what a real world chip would look like with my professors. Layout generation and verification were developed and then veriffied 2x using AI (asking CHAT and CLAUDE if my steps are correct) during the project. The portfolio focuses on the circuit, physical-layout flow, and recorded local verification.
 
-## Open the project
+# Open the project
 
 | File | Purpose |
 |---|---|
@@ -30,7 +30,7 @@ Keep the layout and schematic cell files together. In the prepared Docker enviro
 
 A 50 MHz external clock produces 97,656.25 Hz after division. Hold external `clk` low when measuring the independent ring oscillator. The saved simulations and plots are evidence of modeled behavior, not physical chip measurements.
 
-## Submission and reproducibility
+# Submission and reproducibility
 
 The `.github/workflows/gds.yaml` workflow targets TTSKY26d. Its submission paths, GDS, LEF, interface, metadata and license are unchanged from the prepared release. Current capacity and dates must be checked at submission time.
 
