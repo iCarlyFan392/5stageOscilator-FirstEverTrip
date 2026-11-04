@@ -26,7 +26,6 @@ Design-rule checking (DRC) checks geometric rules such as widths, spaces, overla
 
 Layout-versus-schematic (LVS) extracts devices and connectivity from the geometry, then compares them with the source schematic. Matching LVS does not establish speed, oscillator startup, or correct power-up state. This project checks the reusable cells, the whole Magic hierarchy, and a fresh import of the actual GDS export.
 
-The official Tiny Tapeout precheck adds checks for its submission interface: boundary, pin locations, power shapes, permitted layers, naming, and related integration rules. It is run locally using the official tools; the repository's GitHub Actions run remains part of the submission handoff.
 
 ## 4. Parasitics change the circuit
 
