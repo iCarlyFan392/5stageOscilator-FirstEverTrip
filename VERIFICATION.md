@@ -59,7 +59,7 @@ Power is the mean current from the ideal core supply multiplied by supply voltag
 
 ## Scope and reproducibility
 
-These results cover the modeled conditions and stimuli listed above. They are not fabricated-silicon measurements, foundry acceptance, full-chip integration timing, package/pad simulation, statistical mismatch analysis, or electromigration/lifetime signoff. The official submission workflow and Tiny Tapeout acceptance still need to run against the published repository commit.
+These results cover the modeled conditions and stimuli listed above. They are not fabricated-silicon measurements, foundry acceptance, full-chip integration timing, package/pad simulation, statistical mismatch analysis, or electromigration/lifetime signoff.
 
 The diode parameter conversion is explicit in [SIMULATION_UNITS.md](../docs/SIMULATION_UNITS.md). Raw exports and the exact qualified extracted network are retained. The original extraction used the container's open_pdks 1.0.599 technology; re-extraction with Tiny Tapeout's pinned PDK was compared as an attributed circuit graph. Resistor values, device parameters and topology match; capacitances differ only within a 3 ppm / 0.0001 fF text-rounding tolerance. See `extraction_provenance.json` and `extraction_equivalence.json`. All simulation transistor models, final DRC, final GDS checks, and official precheck use the pinned submission PDK.
 
