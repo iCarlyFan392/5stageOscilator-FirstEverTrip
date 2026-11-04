@@ -1,6 +1,6 @@
 # Clock512 local verification
 
-**Local engineering checks passed.** GitHub Actions, repository publication, reservation/payment, and final Tiny Tapeout submission remain owner handoff steps. The public author is **Zane Al Saadi**. No silicon has been fabricated or measured for this project.
+**Local engineering checks passed.** GitHub Actions, repository publication, reservation/payment, and final Tiny Tapeout submission remain owner handoff steps. The public author is **Zane Al Saadi**. silicon has been sent for fabricated, but will not be receving until June 2027 to measure for this project.
 
 Target: TTSKY26d, SKY130, 1×2 tile, 161 × 225.76 µm, no analog pads. Physical top: `tt_um_clock512_custom`.
 
