@@ -36,4 +36,4 @@ The `.github/workflows/gds.yaml` workflow targets TTSKY26d. Its submission paths
 
 This compact repository includes selected verification evidence. The full build scripts, raw exports and original releases are retained in the separate portfolio supporting archive under `originals/clock512_support/full_project/`. Use that complete project when regenerating or rerunning the physical design. Editing the layout or circuit requires new verification and regenerated submission files.
 
-The existing Apache-2.0 license is preserved. PDK models are installed separately. Nothing has been purchased or submitted.
+The existing Apache-2.0 license is preserved. PDK models are installed separately. Space had been purchased and admitted
