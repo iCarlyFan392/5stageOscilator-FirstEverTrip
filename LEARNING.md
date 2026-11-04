@@ -40,7 +40,7 @@ Process corners describe different modeled transistor behavior. Voltage and temp
 
 The GDS contains the mask geometry. LEF describes the block outline, pins, and routing obstruction for integration. The Verilog stub declares the physical interface; it contains no implementation to synthesize. Metadata and `docs/info.md` form the project description and datasheet.
 
-After local review, the owner publishes the repository, obtains passing GitHub workflow results, and submits through Tiny Tapeout. Tiny Tapeout integrates the project with its infrastructure and other users' designs. Foundry fabrication, packaging, board assembly and delivery follow the shuttle schedule. Submission and payment have not occurred in this local preparation.
+After local review, the owner publishes the repository, obtains passing GitHub workflow results, and submits through Tiny Tapeout. Tiny Tapeout integrates the project with its infrastructure and other users' designs. Foundry fabrication, packaging, board assembly and delivery follow the shuttle schedule. 
 
 ## 6. First silicon measurements
 
